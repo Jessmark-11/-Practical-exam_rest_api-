@@ -1,1 +1,10 @@
-
+const getUserByld=(request,response)=>{
+  const id=parselnt(request.params.id)
+  
+  pool.query('SELECT*FROM users WHERE i
+    if(error){
+    throw error
+    }
+    response.status(200).json(results.rows)
+    })
+ }   
