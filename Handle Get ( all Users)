@@ -1,5 +1,5 @@
 const getUsers=(request,response)=>{
-  pool.query('SELECT*from USERS order by id ASC', (error, results)=>{
+  pool.query('SELECT*from users ORDERr by id ASC', (error, results)=>{
     if(error){
       throw error
     }
